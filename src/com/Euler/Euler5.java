@@ -2,6 +2,9 @@ package com.Euler;
 
 public class Euler5 {
 	
+	// GOAL:
+	// What is the smallest number divisible by each of the numbers 1 to 20? 
+	
 	public Euler5() {
 		int counter = 20;
 		boolean kick = false;

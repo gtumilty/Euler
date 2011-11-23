@@ -5,6 +5,11 @@ public class Euler9 {
 
 	public Euler9() {
 		
+		// GOAL:
+		// Find the only Pythagorean triplet, {a, b, c}, for which a + b + c = 1000.
+		
+		System.out.println("Start Euler 9");
+		
 		for (int a=0; a<=1000; a++)
 		{
 			//System.out.println("counter = " + counter);
