@@ -4,6 +4,6 @@ class main
 {			
 	public static void main(String args[])
 	{
-		Euler8 e = new Euler8();
+		Euler10 e = new Euler10();
 	}
 }
