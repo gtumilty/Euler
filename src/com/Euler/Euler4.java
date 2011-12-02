@@ -10,13 +10,15 @@ public class Euler4 {
 		// main program
 	    int highNum = 0;
 	    
-	    for (int a=100; a<1000; a++)
+	    for (int a=999; a>=100; a--)
 	    {
 	        // is the total product of these numbers a palindrome?
 	        for (int b=a; b>0; b--)
 	        {
 	            // find product and convert to string
 	            int newProduct = a*b;
+	            
+	            System.out.println(a + " x " + b + " = " + newProduct);
 	            
 	            String newString = String.valueOf(newProduct);
 	            
